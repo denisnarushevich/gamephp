@@ -1,0 +1,15 @@
+#topBar {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 3;
+	border-bottom: 1px solid #aaa;
+	opacity: .8;
+}
+
+#topBar > div {
+	height: 40px;
+	background-color: #eee;
+	border-bottom: 1px solid #fff;
+}

@@ -1,0 +1,15 @@
+#map {
+	position: relative;
+	margin: 0 auto;
+}
+
+#mapPadContainer {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+}
+
+#mapPadContainer > #mapPad {
+	margin: 0 auto;
+	height: inherit;
+}

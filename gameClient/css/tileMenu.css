@@ -1,0 +1,61 @@
+/* 
+    Document   : tileMenu
+    Created on : Oct 26, 2011, 10:10:46 AM
+    Author     : Waynez
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+div.tileMenu {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 140px;
+	border: 1px solid #aaa;
+	z-index: 2;
+}
+
+div.tileMenu > a {
+	display: block;
+	
+	border: 1px solid #fff;
+	border-bottom-color: #aaa;
+	padding: 1px 0px 1px 22px;
+	
+	background: #eee no-repeat 2px 50%;
+}
+
+div.tileMenu > a[hover=true] {
+	cursor: pointer;
+}
+
+div.tileMenu > a[last] {
+	border-bottom-color: #fff;
+}
+
+div.tileMenu > a > div {
+	color: #333;
+	
+	background: transparent no-repeat 100% 50%;
+}
+
+div.tileMenu > a[submenu] > div {
+	background-image: url('../i/tileMenu/submenuArrow.png');
+}
+
+
+
+div.tileMenu > a[hover=true]:hover {
+	border-color: #eee;
+	border-bottom-color: #aaa;
+	
+	background-color: #ddd;
+}
+
+div.tileMenu > a[hover=true]:hover > div {
+	color: #111;
+}
+
+div.tileMenu > a[last]:hover {
+	border-bottom-color: #eee;
+}
