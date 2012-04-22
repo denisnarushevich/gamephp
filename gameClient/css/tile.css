@@ -1,0 +1,16 @@
+.tile {
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+.tile > div {
+	position: absolute;
+	left: 0px;
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+
+.tile > div > div {
+	position: absolute;
+	cursor: pointer;
+}
