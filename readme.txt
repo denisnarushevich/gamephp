@@ -9,6 +9,8 @@ It can be done in gameClient/js/action.js . Server url should point on a bus.php
 
 At this point you should have it running.
 
+To check it out, just open index.html in client.
+
 In case of something went wrong, and game tiles wont load - you can check browser console, every game request and response or server error is logged there.
 
 If you made it so far, I would like to invite you to collaborate and develop a project, which evaluated from this one.
