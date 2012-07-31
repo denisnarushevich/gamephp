@@ -13,6 +13,4 @@ To check it out, just open index.html in client.
 
 In case of something went wrong, and game tiles wont load - you can check browser console, every game request and response or server error is logged there.
 
-If you made it so far, I would like to invite you to collaborate and develop a project, which evaluated from this one.
-It is better structured, and much richer. Check it out at https://bitbucket.org/narushevich/isometrica .
-You can skype me, if your interested to contribute: d.narushevich
+You can email me d.narushevich at inbox dot lv
