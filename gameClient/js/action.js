@@ -1,6 +1,6 @@
 talkee = function(){
 	this.method = 'POST';
-	this.target = '/gameServerCosmo/bus.php';
+	this.target = 'http://localhost/game/gameServer/bus.php';
 	this.onResponse = function(){};
 	this.queryString = '';
 	this.require = function(){
