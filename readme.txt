@@ -15,4 +15,3 @@ To check it out, just open index.html in client.
 
 In case of something went wrong, and game tiles wont load - you can check browser console, every game request and response or server error is logged there.
 
-You can email me d.narushevich at inbox dot lv
